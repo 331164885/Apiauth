@@ -1,0 +1,23 @@
+{
+	"name" : "welld1990/apiauth",
+	"type" : "library",
+	"keywords" : [
+		"api加密",
+		"api解密",
+		"api安全",
+		"接口加密",
+		"接口解密",
+		"数据解密",
+		"数据解密"
+	],
+	"description" : "api接口数据传输加密和解密",
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"welld1990\\Apiauth\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.6"
+	}
+}
