@@ -21,7 +21,7 @@ class AesClient {
         'secret' => '0922587b9c2a92b242e3abcede92e9c3',
         //数据解密密码
         'pwd' => 'ef111c4604ad0610',
-        //解密iv
+        //iv
         'iv' => '9294395459492873',
         //报文编码方式 base64方式，hex2bin方式
         'decode' => 'base64',
