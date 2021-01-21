@@ -10,8 +10,14 @@
 		"数据解密",
 		"数据解密"
 	],
-	"description" : "api接口数据传输加密和解密",
+	"description" : "服务端和客户端数据传输加密和认证，报文加密+签名验证",
 	"license" : "MIT",
+    "authors": [
+        {
+            "name": "welld1990",
+            "email": "1440080220@qq.com",
+        }
+    ],
 	"autoload" : {
 		"psr-4" : {
 			"welld1990\\Apiauth\\" : "src"

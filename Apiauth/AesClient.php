@@ -12,7 +12,7 @@ namespace welld1990\Apiauth;
 class AesClient {
     
     /**
-     * 当前请求所属的api客户端信息
+     * 客户端配置信息
      */
     private $config = array(
         //客户端ID
@@ -31,6 +31,7 @@ class AesClient {
     
     /**
      * 签名验证数据
+     * --常规放在header传输
      * @var array
      */
     private $headers = array(
@@ -213,7 +214,7 @@ class AesClient {
     }
     
     /**
-     * 报文解码
+     * 响应报文编码
      * @param string $body
      * @return string
      */
@@ -232,7 +233,7 @@ class AesClient {
     }
     
     /**
-     * 响应内容加密
+     * 响应报文加密
      * @param array $data
      * @return string
      */
